@@ -10,7 +10,7 @@ import java.util.function.Function;
 
 public class Util {
     private static <T extends FlagBlock> T registerFlag(String id, Function<FabricBlockSettings,  T> factory) {
-        FlagBlock flag = Register
+        return Register
                 .block(id, factory)
                 .settings(settings -> settings
                         .nonOpaque()
@@ -21,8 +21,6 @@ public class Util {
                 .item()
                 .register()
                 .getBlock();
-
-        return flag;
     }
     public static Flag createFlag(String type, boolean lgbt) {
         FlagBlock small = registerFlag("small_" + type + "_flag", FlagBlock::small);
