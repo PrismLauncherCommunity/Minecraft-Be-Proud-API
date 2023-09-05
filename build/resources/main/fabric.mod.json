@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft-be-proud-api",
+  "version": "0.1.0",
+  "name": "Minecraft-Be-Proud-API",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/june/Minecraft-Be-Proud-API"
+  },
+  "license": "MIT",
+  "icon": "assets/proudapi/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "xyz.sillyjune.proudapi.ProudAPIClient"
+    ],
+    "main": [
+      "xyz.sillyjune.proudapi.ProudAPI"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
