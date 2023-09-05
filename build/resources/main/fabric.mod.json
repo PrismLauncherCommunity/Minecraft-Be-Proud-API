@@ -6,7 +6,7 @@
   "description": "",
   "authors": [],
   "contact": {
-    "repo": "https://github.com/june/Minecraft-Be-Proud-API"
+    "repo": "https://github.com/JunePrimaver/Minecraft-Be-Proud-API"
   },
   "license": "MIT",
   "icon": "assets/proudapi/icon.png",
@@ -22,6 +22,7 @@
   "depends": {
     "fabricloader": ">=0.14.22",
     "fabric": "*",
-    "minecraft": "1.20.1"
+    "minecraft": "1.20.1",
+    "beproud": "0.1.0"
   }
 }
