@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "xyz.sillyjune.proudapi",
+  "package": "xyz.sillyjune.proudapi.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "LGBTBook"
   ],
   "injectors": {
     "defaultRequire": 1
